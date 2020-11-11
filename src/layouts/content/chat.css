@@ -1,0 +1,68 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chathistory__header {
+  display: flex;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.chathistory__header > .MuiAvatar-root {
+  align-self: center;
+}
+.chathistory__header_middle {
+  flex: 1;
+  padding-left: 15px;
+  align-self: center;
+}
+
+.chathistory__header_middle > h5 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+.chathistory__header_middle > p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #787878;
+}
+
+.chathistory__right {
+  align-self: center;
+}
+
+.chathistory__content {
+  flex: 1;
+  /* display: flex;
+  flex-direction: column-reverse; */
+  background-color: white;
+}
+
+.chathistory__message {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.chathistory__message_text {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #787878;
+  padding: 5px;
+}
+
+.chathistory__message_text > input {
+  border: 0px;
+  outline-style: none;
+  padding-left: 5px;
+  background-color: transparent;
+}
+
+.attachment {
+  transform: rotate(45deg);
+}

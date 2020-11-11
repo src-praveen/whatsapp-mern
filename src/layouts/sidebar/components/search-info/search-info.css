@@ -1,0 +1,45 @@
+.search__info {
+  display: flex;
+
+  padding: 10px;
+}
+
+.search__info_middle {
+  flex: 1;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+}
+.search__info_middle > h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.search__info_middle > p {
+  font-size: 12px;
+  color: rgb(107, 107, 107);
+}
+
+.search__info_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+}
+
+.search__info_right > p {
+  font-size: 12px;
+  padding-bottom: 5px;
+  color: rgb(107, 107, 107);
+}
+.search__info_right > .MuiAvatar-root {
+  height: 16px;
+  width: 16px;
+  background-color: #06d755;
+}
+
+.search__info_right > .MuiAvatar-root > p {
+  font-size: 8px;
+}

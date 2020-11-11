@@ -1,0 +1,28 @@
+.chathome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.chathome > .MuiSvgIcon-root {
+  color: #06d755;
+  font-size: 6rem;
+  padding-bottom: 10px;
+}
+
+.chathome > h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #7b7b7b;
+  padding-bottom: 20px;
+}
+
+.chathome > p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #7b7b7b;
+}
