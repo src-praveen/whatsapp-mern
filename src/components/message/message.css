@@ -1,0 +1,33 @@
+.chat_message {
+  position: relative;
+  padding: 5px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 8px 8px 8px 0px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  align-self: top;
+}
+
+.recevied_message {
+  background-color: #dcf8c6;
+  margin-left: auto;
+  border-radius: 8px 8px 0px 8px;
+}
+
+.message__time {
+  align-self: right;
+  padding-left: 10px;
+  font-size: xx-small;
+  color: rgb(172, 170, 170);
+}
+
+.tick > .MuiSvgIcon-root {
+  font-size: 12px;
+  padding-left: 5px;
+  color: rgb(172, 170, 170);
+}
+
+.tick_read > .MuiSvgIcon-root {
+  color: #069df5;
+}
